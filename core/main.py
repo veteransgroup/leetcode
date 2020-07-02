@@ -6,7 +6,7 @@ step = repr(accuracy)
 btime = utime = 0
 while True:
     possible_value = (upper_bound + bottom_bound) / 2
-    temp_value = number - possible_value * possible_value * possible_value
+    temp_value = number - possible_value ** 3
     if abs(temp_value) <= accuracy/1000:
         print("The cube root is:", possible_value)
         break
