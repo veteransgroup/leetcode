@@ -11,3 +11,8 @@ class Student:
 line="ERROR_NO       VARCHAR2(10) CONSTRAINT "
 number=line[line.find("VARCHAR2")+9:line.find(")")]
 print(number)
+dic2={}
+dic={"i":"io","e":"ek","o":"op","w":"wc",}
+print(dic)
+print(dic2.popitem())
+print(dic2)
